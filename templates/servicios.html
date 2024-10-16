@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios - UPEA</title>
+</head>
+<body>
+
+    <h1>Servicios de la UPEA</h1>
+
+    <section>
+
+        <!-- Servicio de Asesoría Académica -->
+        <article>
+            <h2>Asesoría Académica</h2>
+            <img src="{{ url_for('static', filename='imagenes/asesoria.png') }}" alt="Asesoría Académica">
+            <p>Ofrecemos asesoría académica personalizada para ayudar a los estudiantes a alcanzar sus metas educativas y resolver sus dudas en diversas materias.</p>
+        </article>
+
+        <!-- Servicio de Biblioteca Digital -->
+        <article>
+            <h2>Biblioteca Digital</h2>
+            <img src="{{ url_for('static', filename='imagenes/biblioteca.png') }}" alt="Biblioteca Digital">
+            <p>Nuestra biblioteca digital proporciona acceso a una amplia variedad de libros, artículos y recursos en línea, disponibles para todos los estudiantes.</p>
+        </article>
+
+        <!-- Servicio de Programas de Tutoría -->
+        <article>
+            <h2>Programas de Tutoría</h2>
+            <img src="{{ url_for('static', filename='imagenes/tutoria.png') }}" alt="Programas de Tutoría">
+            <p>Implementamos programas de tutoría que conectan a estudiantes con tutores, favoreciendo el aprendizaje colaborativo y el apoyo académico.</p>
+        </article>
+
+        <button onclick="window.location.href='/servicio1'">Leer más sobre nuestros servicios</button>
+
+    </section>
+
+</body>
+</html>

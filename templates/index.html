@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Inicio - UPEA</title>
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='imagenes/logotipo.png') }}" alt="Logotipo UPEA">
+        <h1>Universidad Pública de El Alto</h1>
+        <p>La UPEA ofrece una educación superior de calidad, formando profesionales comprometidos con el desarrollo del país.</p>
+        <nav>
+            <ul>
+                <li><a href="/qs">¿Quiénes Somos?</a></li>
+                <li><a href="/servicios">Servicios Académicos</a></li>
+                <li><a href="/noticias">Noticias y Eventos</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Testimonios de Clientes</h2>
+        <p>Aquí se mostrarían los testimonios.</p>
+        <button onclick="window.location.href='https://www.facebook.com/'">Síguenos en Redes Sociales</button>
+    </section>
+    <section
